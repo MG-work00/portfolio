@@ -2,16 +2,59 @@
 portfolio/
 ├── public/
 │   └── vite.svg
-├── src/
-│   ├── assets/
-│   │   └── react.svg
-│   ├── App.css
-│   ├── App.jsx              # Main application component
-│   ├── index.css
-│   └── main.jsx             # Entry point
+    └── favicon.ico
+```
+└── 📁src
+    └── 📁assets
+        └── 📁images
+        └── react.svg
+        └── 📁svgs
+            └── cloud.svg
+            └── css.svg
+            └── figma.svg
+            └── framer.svg
+            └── github.svg
+            └── grid.svg
+            └── html.svg
+            └── javaScript.svg
+            └── mui.svg
+            └── next.svg
+            └── react.svg
+            └── redux.svg
+            └── sql.svg
+            └── tailwindCSS.svg
+            └── vercel.svg
+            └── vite.svg
+    └── 📁components
+        └── 📁layout
+            └── Footer.jsx
+            └── Header.jsx
+            └── Navigation.jsx
+        └── 📁sections
+            └── About.jsx
+            └── Contact.jsx
+            └── Hero.jsx
+            └── Projects.jsx
+            └── Services.jsx
+        └── 📁ui
+            └── Button.jsx
+            └── Card.jsx
+            └── ProgressBar.jsx
+    └── 📁data
+        └── projects.js
+        └── services.js
+        └── skills.js
+    └── 📁hooks
+        └── useScrollSpy.js
+    └── 📁utils
+        └── smoothScroll.js
+    └── App.jsx
+    └── index.css
+    └── main.jsx
+```
 ├── .gitattributes  
 ├── .gitignore            
-├── .eslint.config.js        # ESLint configuration
+├── .eslint.config.js        
 ├── index.html
 ├── package-lock.json
 ├── package.json
