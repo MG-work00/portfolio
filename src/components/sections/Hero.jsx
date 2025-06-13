@@ -38,7 +38,7 @@ const Hero = () => {
         <div className="mb-8">
           <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-purple-400 to-pink-400 p-1 animate-pulse">
             <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center">
-              <span className="text-4xl font-bold text-white">JS</span>
+              <span className="text-4xl font-bold text-white">MG</span>
             </div>
           </div>
         </div>
@@ -46,20 +46,20 @@ const Hero = () => {
         {/* Main heading */}
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
           Hi, I'm{" "}
-          <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent animate-pulse">
             Manish Gohil
           </span>
         </h1>
 
         {/* Subtitle */}
         <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
-          Frontend Developer
+          Web Developer
         </p>
 
         {/* Description */}
         <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-          I create beautiful, responsive websites and applications that provide
-          exceptional user experiences using modern technologies.
+          I craft modern, responsive websites and web applications that deliver
+          outstanding user experiences through clean code and thoughtful design.
         </p>
 
         {/* CTA Buttons */}

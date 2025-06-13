@@ -10,18 +10,4 @@ export default defineConfig({
   server: {
     host: true,
   },
-  theme: {
-    extend: {
-      colors: {
-        green: {
-          500: "#2f855a", // Forest green
-          600: "#276749",
-          900: "#1a4731",
-        },
-      },
-      fontFamily: {
-        inter: ["Inter", "sans-serif"],
-      },
-    },
-  },
 });

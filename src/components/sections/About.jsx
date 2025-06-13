@@ -1,233 +1,162 @@
-// // src/components/sections/About.jsx
-// import { skills, technologies } from '../../data/skills';
-// import { SkillBars } from '../ui/ProgressBar';
-
-// const About = () => {
-//   return (
-//     <section id="about" className="py-20 px-4">
-//       <div className="max-w-6xl mx-auto">
-//         {/* Section heading */}
-//         <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-16">
-//           About{' '}
-//           <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-//             Me
-//           </span>
-//         </h2>
-        
-//         <div className="grid md:grid-cols-2 gap-12 items-center">
-//           {/* Left side - About text */}
-//           <div className="space-y-6">
-//             <h3 className="text-2xl md:text-3xl font-bold text-white mb-6">
-//               Passionate Developer with 5+ Years Experience
-//             </h3>
-            
-//             <p className="text-gray-300 leading-relaxed text-lg">
-//               I'm a full-stack developer who loves creating digital experiences that are not only functional but also beautiful. 
-//               My journey in web development started 5 years ago, and I've been constantly learning and evolving ever since.
-//             </p>
-            
-//             <p className="text-gray-300 leading-relaxed text-lg">
-//               I specialize in React, Node.js, and modern web technologies. I believe in writing clean, maintainable code 
-//               and creating user interfaces that are both intuitive and visually appealing.
-//             </p>
-            
-//             <div className="space-y-4">
-//               <h4 className="text-xl font-semibold text-white">What I Do:</h4>
-//               <ul className="space-y-2 text-gray-300">
-//                 <li className="flex items-center">
-//                   <span className="w-2 h-2 bg-purple-400 rounded-full mr-3"></span>
-//                   Frontend Development with React & Vue.js
-//                 </li>
-//                 <li className="flex items-center">
-//                   <span className="w-2 h-2 bg-purple-400 rounded-full mr-3"></span>
-//                   Backend Development with Node.js & Python
-//                 </li>
-//                 <li className="flex items-center">
-//                   <span className="w-2 h-2 bg-purple-400 rounded-full mr-3"></span>
-//                   Database Design & Management
-//                 </li>
-//                 <li className="flex items-center">
-//                   <span className="w-2 h-2 bg-purple-400 rounded-full mr-3"></span>
-//                   UI/UX Design & Prototyping
-//                 </li>
-//               </ul>
-//             </div>
-            
-//             {/* Technologies */}
-//             <div className="pt-6">
-//               <h4 className="text-xl font-semibold text-white mb-4">Technologies I Work With:</h4>
-//               <div className="flex flex-wrap gap-3">
-//                 {technologies.map((tech) => (
-//                   <span 
-//                     key={tech} 
-//                     className="bg-slate-800 text-purple-400 px-3 py-2 rounded-full text-sm font-medium hover:bg-slate-700 transition-colors"
-//                   >
-//                     {tech}
-//                   </span>
-//                 ))}
-//               </div>
-//             </div>
-//           </div>
-          
-//           {/* Right side - Skills */}
-//           <div className="space-y-8">
-//             <div>
-//               <h4 className="text-xl font-semibold text-white mb-6">My Skills</h4>
-//               <SkillBars skills={skills} />
-//             </div>
-            
-//             {/* Stats */}
-//             <div className="grid grid-cols-2 gap-6 pt-6 border-t border-slate-700">
-//               <div className="text-center">
-//                 <h5 className="text-3xl font-bold text-purple-400 mb-2">50+</h5>
-//                 <p className="text-gray-300">Projects Completed</p>
-//               </div>
-//               <div className="text-center">
-//                 <h5 className="text-3xl font-bold text-purple-400 mb-2">5+</h5>
-//                 <p className="text-gray-300">Years Experience</p>
-//               </div>
-//               <div className="text-center">
-//                 <h5 className="text-3xl font-bold text-purple-400 mb-2">30+</h5>
-//                 <p className="text-gray-300">Happy Clients</p>
-//               </div>
-//               <div className="text-center">
-//                 <h5 className="text-3xl font-bold text-purple-400 mb-2">24/7</h5>
-//                 <p className="text-gray-300">Support</p>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default About;
-
-import React from 'react';
-import CSS from '../../assets/svgs/css.svg';
-import Figma from '../../assets/svgs/figma.svg';
-import Framer from '../../assets/svgs/framer.svg';
-import Github from '../../assets/svgs/github.svg';
-import HTML from '../../assets/svgs/html.svg';
-import JavaScript from '../../assets/svgs/javaScript.svg';
-import MUI from '../../assets/svgs/mui.svg';
-import Next from '../../assets/svgs/next.svg';
-import ReactJS from '../../assets/svgs/react.svg';
-import Redux from '../../assets/svgs/redux.svg';
-import TailwindCSS from '../../assets/svgs/tailwindCSS.svg';
-import Vercel from '../../assets/svgs/vercel.svg';
-import Vite from '../../assets/svgs/vite.svg';
+// src/components/sections/About.jsx
+import CSS from "../../assets/svgs/css.svg";
+import Figma from "../../assets/svgs/figma.svg";
+import Framer from "../../assets/svgs/framer.svg";
+import Github from "../../assets/svgs/github.svg";
+import HTML from "../../assets/svgs/html.svg";
+import JavaScript from "../../assets/svgs/javaScript.svg";
+import MUI from "../../assets/svgs/mui.svg";
+import Sass from "../../assets/svgs/sass.svg";
+import Next from "../../assets/svgs/next.svg";
+import ReactJS from "../../assets/svgs/react.svg";
+import Redux from "../../assets/svgs/redux.svg";
+import TailwindCSS from "../../assets/svgs/tailwindCSS.svg";
+import Vercel from "../../assets/svgs/vercel.svg";
+import Vite from "../../assets/svgs/vite.svg";
+import Boostrap from "../../assets/svgs/bootstrap.svg";
+import Postman from "../../assets/svgs/postman.svg";
 
 const About = () => {
   const technologies = [
-    { name: 'HTML', icon: HTML },
-    { name: 'CSS', icon: CSS },
-    { name: 'JavaScript', icon: JavaScript },
-    { name: 'React', icon: ReactJS },
-    { name: 'Next.js', icon: Next },
-    { name: 'Redux', icon: Redux },
-    { name: 'Tailwind CSS', icon: TailwindCSS },
-    { name: 'MUI', icon: MUI },
-    { name: 'Figma', icon: Figma },
-    { name: 'Framer', icon: Framer },
-    { name: 'GitHub', icon: Github },
-    { name: 'Vercel', icon: Vercel },
-    { name: 'Vite', icon: Vite },
+    { name: "HTML", icon: HTML },
+    { name: "CSS", icon: CSS },
+    { name: "JavaScript", icon: JavaScript },
+    { name: "React", icon: ReactJS },
+    { name: "Next.js", icon: Next },
+    { name: "Vite", icon: Vite },
+    { name: "Redux", icon: Redux },
+    { name: "Tailwind CSS", icon: TailwindCSS },
+    { name: "MUI", icon: MUI },
+    { name: "Boostrap", icon: Boostrap },
+    { name: "Sass", icon: Sass },
+    { name: "Figma", icon: Figma },
+    { name: "Framer", icon: Framer },
+    { name: "GitHub", icon: Github },
+    { name: "Vercel", icon: Vercel },
+    { name: "Postman", icon: Postman },
   ];
 
   return (
-    <section id="about" className="py-20 px-4">
-      <div className="max-w-6xl mx-auto">
+    <section
+      id="about"
+      className="py-20 px-4 min-h-screen flex items-center bg-slate-800/50"
+    >
+      <div className="max-w-7xl mx-auto w-full">
         {/* Section heading */}
-        <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-16">
-          About{' '}
-          <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
-            Me
-          </span>
-        </h2>
+        <div className="text-center mb-10">
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight">
+            About{" "}
+            <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent animate-pulse">
+              Me
+            </span>
+          </h2>
+        </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Left side - About text */}
-          <div className="space-y-6">
-            <h3 className="text-2xl md:text-3xl font-bold text-white mb-6">
-              Crafting Digital Experiences with Over 2 Years of Expertise
-            </h3>
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
+          {/* Left side - About content */}
+          <div className="space-y-8">
+            <div className="relative">
+              <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-25"></div>
+              <div className="relative bg-slate-900/50 backdrop-blur-sm border border-slate-700/50 rounded-lg p-8">
+                <h3 className="text-3xl md:text-4xl font-bold text-white mb-6 leading-tight">
+                  Web Developer with{" "}
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">
+                    2+ Years Experience
+                  </span>
+                </h3>
 
-            <p className="text-gray-300 leading-relaxed text-lg">
-              With more than two years of experience, I specialize in building intuitive and visually stunning digital interfaces that prioritize user engagement. My passion lies in transforming ideas into seamless, responsive experiences that delight users across devices.
-            </p>
+                <div className="space-y-6 text-gray-300 leading-relaxed">
+                  <p className="text-lg">
+                    I'm a dedicated web developer focused on creating visually
+                    engaging, user-friendly websites and web apps. I specialize
+                    in building intuitive interfaces that are both functional
+                    and aesthetically pleasing.
+                  </p>
 
-            <p className="text-gray-300 leading-relaxed text-lg">
-              I thrive on solving complex challenges with clean, efficient code and a keen eye for design. My work focuses on creating solutions that are both functional and aesthetically pleasing, ensuring every project delivers value and impact.
-            </p>
+                  <p className="text-lg">
+                    Over the past 2+ years, I’ve worked extensively with modern
+                    frontend technologies like React, Tailwind CSS, and Material
+                    UI. I take pride in turning complex ideas into elegant,
+                    responsive digital experiences.
+                  </p>
 
-            <div className="space-y-4">
-              <h4 className="text-xl font-semibold text-white">What I Do:</h4>
-              <ul className="space-y-2 text-gray-300">
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-purple-400 rounded-full mr-3"></span>
-                  Building responsive and interactive user interfaces
-                </li>
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-purple-400 rounded-full mr-3"></span>
-                  Creating scalable and maintainable applications
-                </li>
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-purple-400 rounded-full mr-3"></span>
-                  Designing intuitive user experiences
-                </li>
-                <li className="flex items-center">
-                  <span className="w-2 h-2 bg-purple-400 rounded-full mr-3"></span>
-                  Optimizing performance for seamless interactions
-                </li>
-              </ul>
+                  <p className="text-lg">
+                    I stay up to date with the latest web development trends and
+                    best practices, ensuring my work is fast, accessible, and
+                    future-proof. My goal is always to deliver solutions that
+                    blend design, performance, and usability.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
 
           {/* Right side - Technologies */}
           <div className="space-y-8">
-            <div>
-              <h4 className="text-xl font-semibold text-white mb-6">Technologies I Work With:</h4>
-              <div className="overflow-hidden">
-                <div className="flex animate-scroll">
-                  {[...technologies, ...technologies].map((tech, index) => (
-                    <div
-                      key={`${tech.name}-${index}`}
-                      className="flex items-center gap-3 px-4 py-2 mx-2 bg-slate-800 text-purple-400 rounded-full text-sm font-medium hover:bg-slate-700 transition-colors flex-shrink-0"
-                    >
-                      <img
-                        src={tech.icon}
-                        alt={tech.name}
-                        className="w-6 h-6"
-                      />
-                      <span>{tech.name}</span>
+            <div className="text-center mb-12">
+              <h4 className="text-3xl font-bold text-white mb-4">
+                Technologies & Tools
+              </h4>
+              <p className="text-gray-400 text-lg">
+                Technologies I work with to bring ideas to life
+              </p>
+            </div>
+
+            {/* Technologies Grid */}
+            <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              {technologies.map((tech, index) => (
+                <div
+                  key={tech.name}
+                  className="group relative"
+                  style={{
+                    animationDelay: `${index * 0.1}s`,
+                  }}
+                >
+                  {/* Glow effect */}
+                  <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-xl blur opacity-0 group-hover:opacity-30 transition-opacity duration-300"></div>
+
+                  {/* Card */}
+                  <div className="relative bg-slate-800/50 backdrop-blur-sm border border-slate-700/50 rounded-xl p-4 hover:bg-slate-700/50 transition-all duration-300 hover:scale-105 hover:border-purple-400/50 animate-fade-in-up">
+                    <div className="flex flex-col items-center space-y-3">
+                      <div className="w-12 h-12 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                        <img
+                          src={tech.icon}
+                          alt={tech.name}
+                          className="w-full h-full object-contain filter group-hover:brightness-110 transition-all duration-300"
+                        />
+                      </div>
+                      <span className="text-sm font-medium text-gray-300 group-hover:text-white transition-colors duration-300 text-center">
+                        {tech.name}
+                      </span>
                     </div>
-                  ))}
+                  </div>
                 </div>
-              </div>
+              ))}
             </div>
           </div>
         </div>
       </div>
 
-      {/* CSS for infinite scroll animation */}
+      {/* Background decoration */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-pink-500/10 rounded-full blur-3xl"></div>
+      </div>
+
       <style jsx>{`
-        @keyframes scroll {
-          0% {
-            transform: translateX(0);
+        @keyframes fade-in-up {
+          from {
+            opacity: 0;
+            transform: translateY(30px);
           }
-          100% {
-            transform: translateX(-50%);
+          to {
+            opacity: 1;
+            transform: translateY(0);
           }
         }
-        .animate-scroll {
-          display: flex;
-          animation: scroll 20s linear infinite;
-          width: max-content;
-        }
-        .animate-scroll:hover {
-          animation-play-state: paused;
+
+        .animate-fade-in-up {
+          animation: fade-in-up 0.6s ease-out forwards;
         }
       `}</style>
     </section>
